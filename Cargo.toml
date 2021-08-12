@@ -76,7 +76,7 @@ std = ["alloc"]
 trust_anchor_util = ["std"]
 
 [dependencies]
-ring = { version = "0.17.0-not-released-yet", default-features = false, git = "https://github.com/Alovchin91/ring", branch = "alovchin91/win-arm64" }
+ring = { version = "0.16.20", default-features = false, git = "https://github.com/awakecoding/ring", branch = "woa-patch" }
 untrusted = "0.9"
 
 [dev-dependencies]
