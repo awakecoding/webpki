@@ -76,8 +76,8 @@ std = ["alloc"]
 trust_anchor_util = ["std"]
 
 [dependencies]
-ring = { version = "0.16.19", default-features = false }
-untrusted = "0.7.1"
+ring = { version = "0.17.0-not-released-yet", default-features = false, git = "https://github.com/Alovchin91/ring", branch = "alovchin91/win-arm64" }
+untrusted = "0.9"
 
 [dev-dependencies]
 base64 = "0.13"
